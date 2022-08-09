@@ -21,7 +21,7 @@ Modern JavaScript Deep Dive 스터디 - CH31 RegExp
 - `RegExp 생성자 함수`
 - 일반적으로 `정규 표현식 리터럴`을 사용
   - `정규 표현식 리터럴`은 `패턴`과 `플래그`로 구성
-    ![regExp](https://user-images.githubusercontent.com/55964775/183537954-e414e361-b715-4a2a-9d83-9db4179b6114.png)
+    ![regExp2](https://user-images.githubusercontent.com/55964775/183555594-a46cde3d-e937-47fd-998c-11359b8dd4af.png)
 
 ---
 
