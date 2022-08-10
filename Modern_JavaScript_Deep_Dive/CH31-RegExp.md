@@ -17,11 +17,21 @@ Modern JavaScript Deep Dive 스터디 - CH31 RegExp
 # 2. 정규 표현식의 생성
 
 - 2가지 방법 존재
-- `정규 표현식 리터럴`
-- `RegExp 생성자 함수`
-- 일반적으로 `정규 표현식 리터럴`을 사용
-  - `정규 표현식 리터럴`은 `패턴`과 `플래그`로 구성
-    ![regExp2](https://user-images.githubusercontent.com/55964775/183556306-6338e9ce-fb87-4a11-b5f7-ceea10fc1460.png)
+
+### 1) `정규 표현식 리터럴`
+
+- 일반적인 사용 방식
+- `정규 표현식 리터럴`은 `패턴`과 `플래그`로 구성
+  ![regExp2](https://user-images.githubusercontent.com/55964775/183556306-6338e9ce-fb87-4a11-b5f7-ceea10fc1460.png)
+- 정규 표현식 리터럴은 스크립트를 불러올 때 컴파일 -> 바뀔 일이 없는 패턴의 경우 리터럴을 사용하면 성능이 향상
+
+### 2) `RegExp 생성자 함수`
+
+```javascript
+const re = new RegExp("ab+c");
+```
+
+- 생성자 함수를 사용하면 정규 표현식이 런타임에 컴파일 -> 바뀔 수 있는 패턴이나, 사용자 입력 등 외부 출처에서 가져오는 패턴의 경우 사용하면 좋음
 
 ---
 
