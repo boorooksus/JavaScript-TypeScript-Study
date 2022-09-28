@@ -1,4 +1,4 @@
-# Effective TypeScript 스터디 - Item6: 타입이 값들의 집합이라고 생각하기
+# Effective TypeScript 스터디 - Item7: 타입이 값들의 집합이라고 생각하기
 
 참고 자료:
 ⟪Effective TypeScript⟫(Jesse Hallett, 인사이트, 2021)
@@ -11,7 +11,7 @@
 
 타입 스크립트의 타입 시스템은 작은 순수 함수형 언어다
 
-### 타입 시스템이 할 수 있는것들
+### 타입 시스템이 할 수 있는것들`
 
 - 함수
 - 분기 - Conditional Branching
